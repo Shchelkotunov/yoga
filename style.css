@@ -112,13 +112,13 @@ header {
 }
 
 #one-block {
-  background-color: #CEDBEB;
-  width: 320px;
+  background-color:#CEDBEB;
 }
 
 #two-block {
-  background-color: #EBE8CE;
-  width: 320px;
+  background-color:#EBE8CE;
 }
 
-.image-slider__image {}
+#three-block {
+  background-color:#EBD1CE;
+}

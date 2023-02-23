@@ -6,3 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 new Swiper('.image-slider')
+
+document.querySelectorAll('.header *, .image-slider *').forEach(function(element) {
+  element.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+  }, { passive: false });
+});
